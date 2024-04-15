@@ -83,9 +83,7 @@ main div img{
 }
 
 h1{
-    background-color: aqua;
     text-align: center;
-    background-color: rgb(251, 255, 0);
 }
 
 article {
@@ -117,6 +115,11 @@ article {
 
   .textCatalogoBici{
     font-size: 15px;
+  }
+
+  .articleBlog{
+    display: flex;
+    justify-content: center;
   }
 
 
