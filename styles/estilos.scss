@@ -40,11 +40,11 @@ p,.textMain{
   display: flex;
 }
 
+
 main div img{
   display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%; /* Altura total de la ventana del navegador */
     };
 
 
@@ -65,7 +65,7 @@ main div img{
   
   .item1,
   .item4 {
-    margin-bottom: 15px; /* Agrega margen inferior entre las imágenes */
+    margin-bottom: 30px; /* Agrega margen inferior entre las imágenes */
   }
   
 .item2{
@@ -78,11 +78,47 @@ main div img{
     padding-top: 80px;
 }
 
+.item4{
+  padding-top: 79px;
+}
+
 h1{
     background-color: aqua;
     text-align: center;
     background-color: rgb(251, 255, 0);
 }
+
+article {
+  display: flex;
+  margin-bottom: 20px;
+}
+.imgBicis {
+  flex: 1;
+  margin-right: 20px;
+}
+.contenido {
+  flex: 2;
+}
+.contenido .texto {
+  margin-bottom: 10px;
+}
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;}
+
+  .articleBicicletas{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  .textCatalogoBici{
+    font-size: 15px;
+  }
+
 
 
   .imagen img {
