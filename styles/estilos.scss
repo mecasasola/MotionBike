@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 ;
+
+$color1:·#998FC7;
+$color2:#D4C2FC;
+$color3:#F9F5FF;
+$color4:#0B032D;
+$textCenter:center;
+
 body, html {
   margin: 0;
   padding: 0;
@@ -14,12 +21,13 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    }
-
-
+    
     nav{
       margin-top: 10px;
+      
     }
+    }
+
 
 .textMain{
     font-family: "Bebas Neue", sans-serif;
@@ -29,7 +37,7 @@ header{
   height: auto; /* Establece la altura automáticamente para mantener la proporción */
   overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
   font-size: 17px; /* Ajusta el tamaño del texto según sea necesario */
-  
+  text-align: $textCenter;
 }
 
 p,.textMain{
@@ -39,6 +47,46 @@ p,.textMain{
 .mainNosotros{
   display: flex;
 }
+
+  .blog-post {
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .blog-post .card {
+    border: none;
+  }
+
+  .blog-post .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .blog-post .card-body {
+    padding: 20px;
+  }
+
+  .blog-post h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .blog-post p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .blog-post .card-title {
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
 
 
 main div img{
@@ -138,3 +186,9 @@ article {
 footer{
     padding-bottom: 10px;
 }
+
+body{background-color: rgb(255, 255, 255);}
+
+img{border-radius: 1%;}
+
+footer{background-color: $color2;}

@@ -14,8 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
-nav {
+header nav {
   margin-top: 10px;
 }
 
@@ -27,6 +26,7 @@ nav {
   height: auto; /* Establece la altura automáticamente para mantener la proporción */
   overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
   font-size: 17px; /* Ajusta el tamaño del texto según sea necesario */
+  text-align: center;
 }
 
 p, .textMain {
@@ -35,6 +35,46 @@ p, .textMain {
 
 .mainNosotros {
   display: flex;
+}
+
+.blog-post {
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.blog-post .card {
+  border: none;
+}
+
+.blog-post .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-post .card-body {
+  padding: 20px;
+}
+
+.blog-post h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.blog-post p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.blog-post .card-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 main div img {
@@ -132,4 +172,16 @@ article {
 
 footer {
   padding-bottom: 10px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  border-radius: 1%;
+}
+
+footer {
+  background-color: #D4C2FC;
 }/*# sourceMappingURL=estilos.css.map */
