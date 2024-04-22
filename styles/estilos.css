@@ -9,12 +9,11 @@ body, html {
 body {
   box-sizing: border-box;
 }
-
-header {
+body header {
   display: flex;
   justify-content: space-between;
 }
-header nav {
+body header nav {
   margin-top: 10px;
 }
 
