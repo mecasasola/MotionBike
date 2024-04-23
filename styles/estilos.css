@@ -28,12 +28,14 @@ body header nav {
   text-align: center;
 }
 
-p, .textMain {
+p,
+.textMain {
   font-size: 25px;
 }
 
 .mainNosotros {
   display: flex;
+  align-items: center;
 }
 
 .blog-post {
@@ -42,33 +44,27 @@ p, .textMain {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
-
 .blog-post .card {
   border: none;
 }
-
 .blog-post .card-img-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
 .blog-post .card-body {
   padding: 20px;
 }
-
 .blog-post h1 {
   color: #333;
   font-size: 2rem;
   margin-top: 20px;
   margin-bottom: 0;
 }
-
 .blog-post p {
   color: #666;
   font-size: 1rem;
   line-height: 1.5;
 }
-
 .blog-post .card-title {
   color: #333;
   font-weight: bold;
@@ -90,12 +86,12 @@ main div img {
 .d-block {
   flex: 1 1 100%; /* Ocupa el 100% del ancho en dispositivos móviles */
 }
-
-@media (min-width: 768px) { /* Media query para dispositivos de escritorio */
-  .d-block {
+@media (min-width: 768px) {
+  .d-block { /* Media query para dispositivos de escritorio */
     flex: 1 1 50%; /* Ocupa el 50% del ancho en dispositivos de escritorio */
   }
 }
+
 .item1,
 .item4 {
   margin-bottom: 30px; /* Agrega margen inferior entre las imágenes */
@@ -132,7 +128,6 @@ article {
 .contenido {
   flex: 2;
 }
-
 .contenido .texto {
   margin-bottom: 10px;
 }
@@ -171,16 +166,12 @@ article {
 
 footer {
   padding-bottom: 10px;
+  background-color: #D4C2FC;
 }
 
 body {
   background-color: rgb(255, 255, 255);
 }
-
-img {
+body img {
   border-radius: 1%;
-}
-
-footer {
-  background-color: #D4C2FC;
 }/*# sourceMappingURL=estilos.css.map */
