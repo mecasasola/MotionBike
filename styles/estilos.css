@@ -17,55 +17,52 @@ body header nav {
   margin-top: 10px;
 }
 
-.textMain {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  max-width: 100%; /* Establece el ancho máximo del contenedor */
-  height: auto; /* Establece la altura automáticamente para mantener la proporción */
-  overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
-  font-size: 17px; /* Ajusta el tamaño del texto según sea necesario */
-  text-align: center;
-}
-
-p,
-.textMain {
-  font-size: 25px;
-}
-
-.mainNosotros {
+.mainBlog {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin-bottom: -500px;
 }
 
-.blog-post {
-  margin-bottom: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+@media (max-width: 768px) {
+  .contenedor {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-.blog-post .card {
+.imgMain {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
   border: none;
 }
-.blog-post .card-img-top {
+.card-img-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.blog-post .card-body {
+.card-body {
   padding: 20px;
 }
-.blog-post h1 {
+
+h1 {
   color: #333;
   font-size: 2rem;
   margin-top: 20px;
   margin-bottom: 0;
 }
-.blog-post p {
+
+p {
   color: #666;
   font-size: 1rem;
   line-height: 1.5;
 }
-.blog-post .card-title {
+
+.card-title {
   color: #333;
   font-weight: bold;
   font-size: 1.2rem;
