@@ -46,6 +46,15 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .contenedor {
+    display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      align-items: center;
+  }
+}
+
 
 .imgMain{
   height: 100vh;
@@ -118,10 +127,22 @@ main div img {
   font-size: 28px;
   padding-left: 20px;
   padding-top: 25px;
+  font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .item3 {
   padding-top: 80px;
+  font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    
+  
+}
+
+.pIndex{
+  font-size: 1.3rem;
 }
 
 .item4 {
@@ -164,7 +185,7 @@ article {
 }
 
 .textCatalogoBici {
-  font-size: 15px;
+  font-size: 150px;
 }
 
 .articleBlog {
@@ -185,6 +206,12 @@ article {
 footer {
   padding-bottom: 10px;
   background-color: $color2; // Esto parece ser una variable SCSS, asegúrate de definirla antes de utilizarla
+  
+}
+
+pFoo{
+  display: flex;
+  flex-direction: row;
 }
 
 body {
