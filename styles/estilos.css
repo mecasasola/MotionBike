@@ -21,8 +21,6 @@ body header nav {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
-  margin-bottom: -500px;
 }
 
 @media (max-width: 768px) {
