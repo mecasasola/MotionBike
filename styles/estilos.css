@@ -184,6 +184,10 @@ footer {
   background-color: #D4C2FC;
 }
 
+.fooMargin {
+  margin-top: 20px;
+}
+
 pFoo {
   display: flex;
   flex-direction: row;
